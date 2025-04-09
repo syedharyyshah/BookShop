@@ -72,7 +72,6 @@ const SignUp = () => {
             <button type='submit' className='bg-pink-500 text-white rounded-md px-4 py-1 hover:bg-pink-700 duration-200'>
               Sign Up
             </button>
-           
           </div>
         </form>
       </div>

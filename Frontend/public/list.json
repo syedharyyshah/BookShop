@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "name": "Story Book",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://avatars.mds.yandex.net/i?id=2015e1808f3f1d41f0c1e8febadeb269_l-5291751-images-thumbs&ref=rim&n=13&w=1200&h=1550"
+
+    },
+    {
+        "id":2,
+        "name": "Food Book",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":200,
+        "category":"Food",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/81-JiG7VqvL.jpg"
+
+    },
+    {
+        "id":3,
+        "name": "Music Book",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Song",
+        "image":"https://rock-academy.ru/Gallery/Image/bbd49bfs7z5wjkvwhvtchq.jpg"
+
+    },
+    {
+        "id":4,
+        "name": "Poetry Book",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill%2Cf_auto%2Ch_768%2Cw_1024/v1406784179/zv3nv7nhzpwqohynuldj.jpg"
+
+    },
+    {
+        "id":5,
+        "name": "Sports Book",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Sports",
+        "image":"https://i.pinimg.com/originals/e7/f1/82/e7f182d9e28ce7d2ccf23bddec1db137.jpg"
+
+    },
+    {
+        "id":6,
+        "name": "History Book",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://i.pinimg.com/originals/5e/6f/ae/5e6fae6ed74f49e9f82c1d260a214548.jpg"
+
+    },
+    {
+        "id":7,
+        "name": "Drama Book",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://i.ebayimg.com/images/g/yrsAAOSw42dZG7HW/s-l640.jpg"
+
+    },
+    {
+        "id":8,
+        "name": "Tech Book",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://i.ebayimg.com/images/g/tQ0AAOSwcglgACG0/s-l640.jpg"
+
+    },
+    {
+        "id":9,
+        "name": "Travel Book",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":500,
+        "category":"Travel",
+        "image":"https://i.playground.ru/e/a2Sw9wi2GOIY-94LgrUB1g.png"
+
+    },
+    {
+        "id":10,
+        "name": "Work Book",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://cdn1.ozone.ru/s3/multimedia-z/6148252931.jpg"
+
+    }
+]

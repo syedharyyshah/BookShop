@@ -30,7 +30,7 @@ const Banner = () => {
 
            </div>
 
-           <button className="btn mt-6 btn-active btn-secondary">Secondary</button>
+           <button className="btn mt-6 btn-active btn-secondary">Get Started</button>
 
         </div>
 

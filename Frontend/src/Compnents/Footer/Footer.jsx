@@ -37,7 +37,7 @@ const Footer = () => {
     </a>
   </nav>
   <aside className="text-center text-sm mt-4">
-    <p>Copyright &copy; {new Date().getFullYear()} - All rights reserved by ACME Industries Ltd</p>
+    <p>Copyright &copy; {new Date().getFullYear()} - All rights reserved by SHS Ltd</p>
   </aside>
 </footer>
 

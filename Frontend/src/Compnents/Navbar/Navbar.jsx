@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Login from "../Login/Login";
 import { Link } from "react-router-dom";
+import { useAuth } from "../../Context/AuthProvider";
+import Logout from "../Logout/Logout";
 
 const Navbar = () => {
+
+  const [authUser,setAuthUser]=useAuth()
+
+
   // 🌙 Dark Mode State
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const element = document.documentElement;
@@ -138,13 +144,23 @@ const Navbar = () => {
 
 
           {/* 🔐 Login Button */}
-          <button
-            className="px-4 py-2 bg-black text-white rounded-md dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-300 transition-all"
-            onClick={() => document.getElementById("my_modal_3").showModal()}
-          >
-            Login
-          </button>
-          <Login />
+
+          {
+  authUser ? (
+    <Logout />
+  ) : (
+    <>
+      <button
+        className="px-4 py-2 bg-black text-white rounded-md dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-300 transition-all"
+        onClick={() => document.getElementById("my_modal_3").showModal()}
+      >
+        Login
+      </button>
+      <Login />
+    </>
+  )
+}
+         
         </div>
       </div>
     </div>

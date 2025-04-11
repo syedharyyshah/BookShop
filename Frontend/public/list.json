@@ -1,92 +1,282 @@
 [
     {
-        "id":1,
+        "id": 1,
         "name": "Story Book",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "price":0,
-        "category":"Free",
-        "image":"https://avatars.mds.yandex.net/i?id=2015e1808f3f1d41f0c1e8febadeb269_l-5291751-images-thumbs&ref=rim&n=13&w=1200&h=1550"
-
+        "price": 0,
+        "category": "Free",
+        "image": "https://avatars.mds.yandex.net/i?id=2015e1808f3f1d41f0c1e8febadeb269_l-5291751-images-thumbs&ref=rim&n=13&w=1200&h=1550"
     },
     {
-        "id":2,
+        "id": 2,
         "name": "Food Book",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "price":200,
-        "category":"Food",
-        "image":"https://images-na.ssl-images-amazon.com/images/I/81-JiG7VqvL.jpg"
-
+        "price": 200,
+        "category": "Food",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81-JiG7VqvL.jpg"
     },
     {
-        "id":3,
+        "id": 3,
         "name": "Music Book",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "price":0,
-        "category":"Song",
-        "image":"https://rock-academy.ru/Gallery/Image/bbd49bfs7z5wjkvwhvtchq.jpg"
-
+        "price": 0,
+        "category": "Song",
+        "image": "https://rock-academy.ru/Gallery/Image/bbd49bfs7z5wjkvwhvtchq.jpg"
     },
     {
-        "id":4,
+        "id": 4,
         "name": "Poetry Book",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "price":0,
-        "category":"Free",
-        "image":"https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill%2Cf_auto%2Ch_768%2Cw_1024/v1406784179/zv3nv7nhzpwqohynuldj.jpg"
-
+        "price": 0,
+        "category": "Free",
+        "image": "https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill%2Cf_auto%2Ch_768%2Cw_1024/v1406784179/zv3nv7nhzpwqohynuldj.jpg"
     },
     {
-        "id":5,
+        "id": 5,
         "name": "Sports Book",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "price":0,
-        "category":"Sports",
-        "image":"https://i.pinimg.com/originals/e7/f1/82/e7f182d9e28ce7d2ccf23bddec1db137.jpg"
-
+        "price": 0,
+        "category": "Sports",
+        "image": "https://i.pinimg.com/originals/e7/f1/82/e7f182d9e28ce7d2ccf23bddec1db137.jpg"
     },
     {
-        "id":6,
+        "id": 6,
         "name": "History Book",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "price":0,
-        "category":"Free",
-        "image":"https://i.pinimg.com/originals/5e/6f/ae/5e6fae6ed74f49e9f82c1d260a214548.jpg"
-
+        "price": 0,
+        "category": "Free",
+        "image": "https://i.pinimg.com/originals/5e/6f/ae/5e6fae6ed74f49e9f82c1d260a214548.jpg"
     },
     {
-        "id":7,
+        "id": 7,
         "name": "Drama Book",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "price":0,
-        "category":"Free",
-        "image":"https://i.ebayimg.com/images/g/yrsAAOSw42dZG7HW/s-l640.jpg"
-
+        "price": 0,
+        "category": "Free",
+        "image": "https://i.ebayimg.com/images/g/yrsAAOSw42dZG7HW/s-l640.jpg"
     },
     {
-        "id":8,
+        "id": 8,
         "name": "Tech Book",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "price":0,
-        "category":"Free",
-        "image":"https://i.ebayimg.com/images/g/tQ0AAOSwcglgACG0/s-l640.jpg"
-
+        "price": 0,
+        "category": "Free",
+        "image": "https://i.ebayimg.com/images/g/tQ0AAOSwcglgACG0/s-l640.jpg"
     },
     {
-        "id":9,
+        "id": 9,
         "name": "Travel Book",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "price":500,
-        "category":"Travel",
-        "image":"https://i.playground.ru/e/a2Sw9wi2GOIY-94LgrUB1g.png"
-
+        "price": 500,
+        "category": "Travel",
+        "image": "https://i.playground.ru/e/a2Sw9wi2GOIY-94LgrUB1g.png"
     },
     {
-        "id":10,
+        "id": 10,
         "name": "Work Book",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-        "price":0,
-        "category":"Free",
-        "image":"https://cdn1.ozone.ru/s3/multimedia-z/6148252931.jpg"
-
+        "price": 0,
+        "category": "Free",
+        "image": "https://cdn1.ozone.ru/s3/multimedia-z/6148252931.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Adventure Novel",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&auto=format"
+    },
+    {
+        "id": 12,
+        "name": "Gourmet Cookbook",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 200,
+        "category": "Food",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format"
+    },
+    {
+        "id": 13,
+        "name": "Music Theory",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 150,
+        "category": "Music",
+        "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format"
+    },
+    {
+        "id": 14,
+        "name": "Classic Poetry",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=600&auto=format"
+    },
+    {
+        "id": 15,
+        "name": "Sports Encyclopedia",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 180,
+        "category": "Sports",
+        "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&auto=format"
+    },
+    {
+        "id": 16,
+        "name": "World History",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&auto=format"
+    },
+    {
+        "id": 17,
+        "name": "Theater Arts",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=600&auto=format"
+    },
+    {
+        "id": 18,
+        "name": "Coding Fundamentals",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 300,
+        "category": "Technology",
+        "image": "https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=600&auto=format"
+    },
+    {
+        "id": 19,
+        "name": "Travel Guide",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 250,
+        "category": "Travel",
+        "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&auto=format"
+    },
+    {
+        "id": 20,
+        "name": "Productivity Handbook",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format"
+    },
+    {
+        "id": 21,
+        "name": "Science Fiction",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 220,
+        "category": "Fiction",
+        "image": "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?w=600&auto=format"
+    },
+    {
+        "id": 22,
+        "name": "Art & Design",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 190,
+        "category": "Art",
+        "image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=600&auto=format"
+    },
+    {
+        "id": 23,
+        "name": "Business Strategies",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 350,
+        "category": "Business",
+        "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&auto=format"
+    },
+    {
+        "id": 24,
+        "name": "Health & Wellness",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&auto=format"
+    },
+    {
+        "id": 25,
+        "name": "Children's Stories",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 120,
+        "category": "Kids",
+        "image": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=600&auto=format"
+    },
+    {
+        "id": 26,
+        "name": "Photography Guide",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 280,
+        "category": "Art",
+        "image": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=600&auto=format"
+    },
+    {
+        "id": 27,
+        "name": "Psychology Today",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://images.unsplash.com/photo-1518655048521-f130df041f66?w=600&auto=format"
+    },
+    {
+        "id": 28,
+        "name": "Space Exploration",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 320,
+        "category": "Science",
+        "image": "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=600&auto=format"
+    },
+    {
+        "id": 29,
+        "name": "Fashion Trends",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 170,
+        "category": "Lifestyle",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&auto=format"
+    },
+    {
+        "id": 30,
+        "name": "Ancient Mythology",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://images.unsplash.com/photo-1600189261867-30e5ffe7b8da?w=600&auto=format"
+    },
+    {
+        "id": 31,
+        "name": "DIY Crafts",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 140,
+        "category": "Hobby",
+        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&auto=format"
+    },
+    {
+        "id": 32,
+        "name": "Financial Freedom",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 400,
+        "category": "Finance",
+        "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format"
+    },
+    {
+        "id": 33,
+        "name": "Gardening Essentials",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 160,
+        "category": "Lifestyle",
+        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&auto=format"
+    },
+    {
+        "id": 34,
+        "name": "Meditation Guide",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&auto=format"
+    },
+    {
+        "id": 35,
+        "name": "Wildlife Encyclopedia",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "price": 230,
+        "category": "Nature",
+        "image": "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?w=600&auto=format"
     }
 ]

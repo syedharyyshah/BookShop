@@ -1,15 +1,40 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useForm } from "react-hook-form";
+import axios from "axios";
+import { toast } from "react-hot-toast";
 
 const SignUp = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const from = location.state?.from?.pathname || "/";
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {
+    try {
+      const res = await axios.post("http://localhost:4001/user/signup", data);
+
+      if (res.data.user) {
+        localStorage.setItem("Users", JSON.stringify(res.data.user));
+        toast.success('Signup Successfully');
+
+        // Navigate and reload after short delay
+        setTimeout(() => {
+          navigate(from, { replace: true });
+          window.location.reload();
+        }, 500);
+      }
+    } catch (err) {
+      if (err.response) {
+        toast.error("Error: " + err.response.data.message);
+      }
+    }
+  };
 
   return (
     <div className='flex h-screen items-center justify-center bg-gray-100 dark:bg-gray-800'>
@@ -29,9 +54,9 @@ const SignUp = () => {
               type='text'
               placeholder='Enter your full name'
               className='w-full py-1 border border-gray-300 dark:border-gray-600 rounded-md outline-none px-2 bg-transparent dark:text-white'
-              {...register('name', { required: 'Name is required' })}
+              {...register('fullname', { required: 'Name is required' })}
             />
-            {errors.name && <p className="text-red-500 text-sm">{errors.name.message}</p>}
+            {errors.fullname && <p className="text-red-500 text-sm">{errors.fullname.message}</p>}
           </div>
 
           {/* Email Input */}
@@ -67,7 +92,7 @@ const SignUp = () => {
             {errors.password && <p className="text-red-500 text-sm">{errors.password.message}</p>}
           </div>
 
-          {/* Sign-Up Button & Login Link */}
+          {/* Sign-Up Button */}
           <div className='flex justify-between items-center mt-4'>
             <button type='submit' className='bg-pink-500 text-white rounded-md px-4 py-1 hover:bg-pink-700 duration-200'>
               Sign Up
